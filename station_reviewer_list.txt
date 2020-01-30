@@ -1,0 +1,117 @@
+1. Create reviewers for tides & current prediction stations
+
+2. Check for time zones - required for harmonic & hydraulic stations
+    All harmonic tide stations have valid time zones!
+
+    +---------------------------------------------------------------------------------
+    | 19 harmonic & hydraulic current stations with invalid time zones:
+    |     -- CFR1611_1
+    |     -- CFR1611_10
+    |     -- CFR1611_6
+    |     -- PUG1626_15
+    |     -- PUG1626_20
+    |     -- PUG1626_7
+    |     -- db0201_1
+    |     -- db0201_10
+    |     -- db0201_7
+    |     -- nb0301_7
+    |     -- sn0201_48
+    |     -- t01010_11
+    |     -- t01010_3
+    |     -- t01010_9
+    |     -- t03010_10
+    |     -- t03010_4
+    |     -- t03010_7
+    |     -- ACT3401_1
+    |     -- PCT5446_1
+    +---------------------------------------------------------------------------------
+
+3. Check for harmonic constituents - required for harmonic & hydraulic stations
+    +---------------------------------------------------------------------------------
+    | 4 harmonic tide stations with invalid harmonic constituents:
+    |     -- 8762482
+    |     -- 8776139
+    |     -- 8776604
+    |     -- 8778490
+    +---------------------------------------------------------------------------------
+
+    +---------------------------------------------------------------------------------
+    | 2 harmonic & hydraulic current stations with invalid harmonic constituents:
+    |     -- ACT3401_1
+    |     -- PCT5446_1
+    +---------------------------------------------------------------------------------
+
+4. Check for datums - required for harmonic tide stations
+    All harmonic tide stations have valid datums!
+
+5. Check for major axis direction - required for harmonic & hydraulic current stations
+    +---------------------------------------------------------------------------------
+    | 36 harmonic & hydraulic current stations with invalid major axis directions:
+    |     -- BOS1130_1
+    |     -- BOS1130_10
+    |     -- BOS1135_9
+    |     -- HAI1121_28
+    |     -- KOD0928_22
+    |     -- KOD0934_1
+    |     -- KOD0934_7
+    |     -- KOD0936_13
+    |     -- KOD0936_7
+    |     -- KOD0937_14
+    |     -- KOD0940_22
+    |     -- LIS1022_4
+    |     -- LIS1022_7
+    |     -- MIH0810_1
+    |     -- PWS0710_20
+    |     -- PWS0732_6
+    |     -- PWS0744_3
+    |     -- SAB0805_1
+    |     -- SAB0805_16
+    |     -- SAB0808_5
+    |     -- SAB0808_9
+    |     -- SEA0704_1
+    |     -- SEA0811_1
+    |     -- SEA0811_7
+    |     -- SEA0812_1
+    |     -- SEA0812_16
+    |     -- SEA0812_8
+    |     -- SEA0813_1
+    |     -- SEA0813_3
+    |     -- SEA0816_1
+    |     -- SFB1212_1
+    |     -- SFB1212_6
+    |     -- SFB1212_9
+    |     -- UNI1008_1
+    |     -- UNI1008_12
+    |     -- UNI1008_23
+    +---------------------------------------------------------------------------------
+
+6. Check for reference station - required for subordinate stations
+    +---------------------------------------------------------------------------------
+    | 11 subordinate tide stations with invalid reference stations:
+    |     -- 1778000: 1778000, TPT2859, TPT2893, TPT2895, TPT2897, TPT2899, TPT2905
+    |     -- 1841275: 1841275, TPT2631, TPT2633, TPT2637
+    +---------------------------------------------------------------------------------
+
+    +---------------------------------------------------------------------------------
+    | 57 subordinate current stations with invalid reference stations:
+    |     -- ACT3401_1: ACT3341_1, ACT3346_1, ACT3356_1, ACT3366_1, ACT3376_1,
+    |                   ACT3381_1, ACT3386_1, ACT3391_1, ACT3396_1, ACT3406_1,
+    |                   ACT3411_1, ACT3416_1, ACT3421_1, ACT3426_1, ACT3431_1,
+    |                   ACT3441_1, ACT3446_1, ACT3451_1, ACT3461_1, ACT3476_1,
+    |                   ACT3481_1, ACT3486_1, ACT3491_1, ACT3496_1, ACT3501_1,
+    |                   ACT3506_1, ACT3511_1
+    |     -- ACT3616_1: ACT3846_1
+    |     -- db0201_7: ACT4246_1, ACT4251_1, ACT4256_1, ACT4261_1, ACT4266_1,
+    |                  ACT4271_1, ACT4276_1, ACT4286_1, ACT4291_1, ACT4296_1,
+    |                  ACT4301_1, ACT4306_1, ACT4311_1, ACT4316_1, ACT4321_1,
+    |                  ACT4326_1, ACT4331_1, ACT4336_1, ACT4341_1, ACT4346_1,
+    |                  ACT4351_1, ACT4356_1, ACT4361_1
+    |     -- sn0201_50: ACT8831_1
+    |     -- PCT2316_1: PCT2311_1
+    |     -- PCT5446_1: PCT5426_1, PCT5431_1, PCT5441_1, PCT5451_1
+    +---------------------------------------------------------------------------------
+
+6. Check for prediction offsets - required for subordinate stations
+    All subordinate tide stations have valid prediction offsets!
+
+    All subordinate current stations have valid prediction offsets!
